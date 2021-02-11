@@ -8,8 +8,8 @@ html{
 body{
     position: relative;
     width:90%;
-    height: 100%;
     margin: 5%;
+    margin-bottom: 50px;
     padding: 2%;
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -25,24 +25,13 @@ body{
     font-family: 'Lato', sans-serif;
     font-weight: 100;
 }
-.nav h1{
-    position: absolute;
-    top: 0;
-    left:0;
-    font-weight: 100;
-    margin: 0;
-}
-.navItms{
-    position: absolute;
-    top: 0;
-    right:0;
-}
+
 a{
     text-decoration: none;
     color: black;
     padding: 0 6px;
 }
-.navItms a:hover{
+.nav a:hover{
     border: solid black 1px;
     border-radius: 10px;
     padding: 0 5px;
@@ -56,4 +45,67 @@ a{
     font-weight: 100;
     text-align: center;
     font-size: 100px;
+    margin: 0 0 40px 0;
+}
+.details a{
+    padding: 0;
+    margin: 0;
+}
+
+.illustration{
+
+    width: 40%;
+    margin: 0 30%;
+    padding: 0;
+
+}
+.address{
+    display: flex;
+    justify-content: center;
+}
+.address .adr{
+    margin: 0 60px;
+}
+.address *{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+}
+
+.info{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 40px;
+}
+.info h3, .info p{
+    margin: 0;
+}
+.infoItm{
+    margin:10px 30px;
+}
+.Accommodation, .Gifts{
+    width: 30%;
+    flex-grow: 1;
+}
+.RSVP{
+    width: 100%;
+}
+.RSVP *{
+    margin:0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .details h1{
+        font-size: 60px;
+    }
+    .address .adr{
+        margin: 0 10px;
+    }
+    .infoItm{
+        margin:10px 10px;
+    }
+
 }

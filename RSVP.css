@@ -1,17 +1,18 @@
 html{
     margin:0;
     padding:0;
-    overflow: hidden;
+    overflow: auto;
 }
 body{
     margin:0;
     padding:0;
+    overflow: auto;
 }
 
 .mainImg{
     width:100%;
-    position: relative;
-    top: -200px;
+    position: fixed;
+    bottom: 0;
     left: 0;
     z-index: -1;
 }
@@ -36,10 +37,7 @@ h1, h2{
 }
 h1{
     font-size: 100px;
-    margin: 5% 0 5% 0;
-}
-h2{
-    font-size: 40px;
+    margin: 5% 0 0 0;
 }
 .nav{
     text-align: center;
@@ -81,3 +79,49 @@ textarea{
     border-radius: 10px;
     padding: 4px;
 }
+
+
+@media only screen and (max-width: 1000px) {
+    .mainColumn{
+        width: 100%;
+        /*background-color: rgba(255, 255, 255, 0.5);*/
+        background-color: rgba(0, 0, 0, 0.3);
+        right: 0%;
+        padding: 0;
+        margin: 0;
+        z-index: 1;
+        color: white;
+        
+    }
+    .mainImg{
+        position: fixed;
+        width: auto;
+        left: -35%;
+        height: 100%;
+    }
+    h1{
+        margin: 10% auto 10% auto;
+        width: auto; 
+        font-weight: 200;
+        font-size: 50px;
+    }
+    h2{
+        font-weight: 300;
+    }
+    h1, h2{
+        background-color: rgba(255, 255, 255, 0);
+        color: white;
+    }
+    .nav a{
+        color: white;
+    }
+    .nav a:hover{
+        border: solid white 1px;
+    }
+    .submitBtn{
+        color: white;
+    }
+    .submitBtn:hover{
+        border: solid white 1px;
+    }
+  }
