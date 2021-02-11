@@ -96,9 +96,9 @@ textarea{
     }
     .mainImg{
         position: fixed;
-        width: auto;
-        left: -35%;
-        height: 100%;
+        width: 1200px;
+        left: -80%;
+        height: auto;
     }
     h1{
         margin: 10% auto 10% auto;
