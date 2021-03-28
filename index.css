@@ -36,12 +36,18 @@ h1, h2{
     font-weight: 100;
 }
 h1{
-    font-size: 100px;
-    margin: 10% 25% 0 25%;
-    width: 50%;
+    
+    font-family: 'Bad Script', cursive;
+    font-size: 60px;
+    margin: 10% auto 0 auto;
+    width: auto;
+    color: rgba(0, 0, 0, 0.5);
 }
 h2{
+    font-family: 'Bad Script', cursive;
+    color: rgba(0, 0, 0, 0.5);
     font-size: 40px;
+    
 }
 .nav{
     text-align: center;
@@ -68,7 +74,17 @@ textarea{
     border: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
+    .mainImg{
+        position: fixed;
+        width: auto;
+        left: -5%;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
     .mainColumn{
         width: 100%;
         /*background-color: rgba(255, 255, 255, 0.5);*/
@@ -93,9 +109,12 @@ textarea{
     }
     h2{
         font-weight: 300;
+        font-size: 35px;
     }
+    
     h1, h2{
         background-color: rgba(255, 255, 255, 0);
+        color: white;
     }
     a{
         color: white;

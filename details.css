@@ -49,7 +49,8 @@ h3, p{
 
 .details h1{
     
-    font-family: 'Lato', sans-serif;
+    font-family: 'Bad Script', cursive;
+    color: rgba(0, 0, 0, 0.5);
     font-weight: 300;
     text-align: center;
     font-size: 70px;

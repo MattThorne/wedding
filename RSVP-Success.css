@@ -64,7 +64,17 @@ textarea{
     border: none;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 900px) {
+    .mainImg{
+        position: fixed;
+        width: auto;
+        left: -5%;
+        height: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
     .mainColumn{
         width: 100%;
         /*background-color: rgba(255, 255, 255, 0.5);*/

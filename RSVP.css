@@ -39,6 +39,8 @@ h1, h2{
 h1{
     font-size: 100px;
     margin: 5% 0 0 0;
+    font-family: 'Bad Script', cursive;
+    color: rgba(0, 0, 0, 0.5);
 }
 .nav{
     text-align: center;
@@ -81,15 +83,24 @@ textarea{
     padding: 4px;
 }
 
+@media only screen and (max-width: 900px) {
+    .mainImg{
+        position: fixed;
+        width: auto;
+        left: -5%;
+        height: 100%;
+    }
 
-@media only screen and (max-width: 1000px) {
+}
 
-    body{
+@media only screen and (max-width: 600px) {
+
+    /* body{
         background-image: url("images/PXL_20201122_113955976_Original.jpeg");
         background-repeat: no-repeat;
         background-size: 1200px auto;
         background-position: 40% 0%; 
-    }
+    } */
     .mainColumn{
         width: 100%;
         /*background-color: rgba(255, 255, 255, 0.5);*/
