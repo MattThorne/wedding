@@ -20,17 +20,17 @@ h3, p{
 .nav {
     position: absolute;
     top: 0;
-    left:0;
-    width: 100%;
+    right:0px;
     height: 100px;
     font-family: 'Lato', sans-serif;
-    font-weight: 100;
+    
 }
 
-a{
+.nav a{
     text-decoration: none;
     color: black;
-    padding: 0 6px;
+    padding: 0 3px;
+    font-size: 15px;
 }
 .nav a:hover{
     border: solid black 1px;
