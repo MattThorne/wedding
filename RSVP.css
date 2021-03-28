@@ -57,7 +57,7 @@ a{
 form{
     text-emphasis: center;
     width: 80%;
-    margin: 0 10% 100% 10%;
+    margin: 0 10% 60% 10%;
     padding: 0;
 }
 form *{
@@ -83,6 +83,13 @@ textarea{
 
 
 @media only screen and (max-width: 1000px) {
+
+    body{
+        background-image: url("images/PXL_20201122_113955976_Original.jpeg");
+        background-repeat: no-repeat;
+        background-size: 1200px auto;
+        background-position: 40% 0%; 
+    }
     .mainColumn{
         width: 100%;
         /*background-color: rgba(255, 255, 255, 0.5);*/
@@ -98,7 +105,7 @@ textarea{
         position: fixed;
         width: 1200px;
         left: -80%;
-        height: auto;
+        display: none;
     }
     h1{
         margin: 10% auto 10% auto;
