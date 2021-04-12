@@ -23,6 +23,7 @@ h3, p{
     right:0px;
     height: 100px;
     font-family: 'Lato', sans-serif;
+    z-index: 2;
     
 }
 
@@ -38,13 +39,23 @@ h3, p{
     padding: 0 5px;
 }
 
-
+.illContainer{
+    position: relative;
+}
 .illustration{
 
     width: 40%;
     margin: 0 30%;
     padding: 0;
 
+}
+.illCredit{
+    position: absolute;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: black;
+    right: 20%;
+    bottom: -20px;
 }
 
 .details h1{
@@ -140,6 +151,14 @@ sup {
     .illustration{
         width: 60%;
         margin: 0 20%;
+    }
+    .illCredit{
+        position: absolute;
+        text-decoration: none;
+        font-family: 'Lato', sans-serif;
+        font-size: small;
+        right: 0;
+        bottom: -15px;
     }
     .details h1{
         font-size: 20px;
